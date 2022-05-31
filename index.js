@@ -13,6 +13,7 @@ let playlist9 = document.querySelector(".playlist9");
 let playlist10 = document.querySelector(".playlist10");
 let playlist11 = document.querySelector(".playlist11");
 let playlist12 = document.querySelector(".playlist12");
+let playlist13 = document.querySelector(".playlist13");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -101,6 +102,12 @@ let track_list = [
     artist: "Arijit Singh",
     image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
     path: "Musics/Haareya.mp3",
+  },
+  {
+    name: "Khamoshiyan",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Khamoshiyan.mp3",
   },
 ];
 
@@ -221,6 +228,11 @@ playlist11.addEventListener('click', function(){
 })
 playlist12.addEventListener('click', function(){
   track_index = 11;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist13.addEventListener('click', function(){
+  track_index = 12;
   loadTrack(track_index);
   playTrack();
 })
