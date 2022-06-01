@@ -14,6 +14,9 @@ let playlist10 = document.querySelector(".playlist10");
 let playlist11 = document.querySelector(".playlist11");
 let playlist12 = document.querySelector(".playlist12");
 let playlist13 = document.querySelector(".playlist13");
+let playlist14 = document.querySelector(".playlist14");
+let playlist15 = document.querySelector(".playlist15");
+let playlist16 = document.querySelector(".playlist16");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -108,6 +111,24 @@ let track_list = [
     artist: "Arijit Singh",
     image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
     path: "Musics/Khamoshiyan.mp3",
+  },
+  {
+    name: "Saware",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Saware.mp3",
+  },
+  {
+    name: "Phir Bhi Tumko Chaahunga",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Phir Bhi Tumko Chaahunga.mp3",
+  },
+  {
+    name: "Main Hoon Saath Tere",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Main Hoon Saath Tere.mp3",
   },
 ];
 
@@ -233,6 +254,21 @@ playlist12.addEventListener('click', function(){
 })
 playlist13.addEventListener('click', function(){
   track_index = 12;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist14.addEventListener('click', function(){
+  track_index = 13;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist15.addEventListener('click', function(){
+  track_index = 14;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist16.addEventListener('click', function(){
+  track_index = 15;
   loadTrack(track_index);
   playTrack();
 })
