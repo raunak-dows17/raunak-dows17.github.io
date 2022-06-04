@@ -17,6 +17,10 @@ let playlist13 = document.querySelector(".playlist13");
 let playlist14 = document.querySelector(".playlist14");
 let playlist15 = document.querySelector(".playlist15");
 let playlist16 = document.querySelector(".playlist16");
+let playlist17 = document.querySelector(".playlist17");
+let playlist18 = document.querySelector(".playlist18");
+let playlist19 = document.querySelector(".playlist19");
+let playlist20 = document.querySelector(".playlist20");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -129,6 +133,30 @@ let track_list = [
     artist: "Arijit Singh",
     image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
     path: "Musics/Main Hoon Saath Tere.mp3",
+  },
+  {
+    name: "Roke na Ruke Naina",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Roke-Na-Ruke-Naina.mp3",
+  },
+  {
+    name: "Dekha Hazaro Dafaa",
+    artist: "Arijit Singh, Palak Muchhal",
+    image: "https://www.pagalworld.us/_big/rustom-2016-250.jpg",
+    path: "Musics/Main Hoon Saath Tere.mp3",
+  },
+  {
+    name: "Soch Na Sake",
+    artist: "Arijit Singh, Tulsi Kumar",
+    image: "https://www.pagalworld.us/_big/airlift-2016-250.jpg",
+    path: "Musics/Soch Na Sake.mp3",
+  },
+  {
+    name: "Janam Janam",
+    artist: "Arijit Singh, Antara Mitra",
+    image: "https://www.pagalworld.us/_big/dilwale-2015-250.jpg",
+    path: "Musics/Janam Janam.mp3",
   },
 ];
 
@@ -269,6 +297,26 @@ playlist15.addEventListener('click', function(){
 })
 playlist16.addEventListener('click', function(){
   track_index = 15;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist17.addEventListener('click', function(){
+  track_index = 16;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist18.addEventListener('click', function(){
+  track_index = 17;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist19.addEventListener('click', function(){
+  track_index = 18;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist20.addEventListener('click', function(){
+  track_index = 19;
   loadTrack(track_index);
   playTrack();
 })
