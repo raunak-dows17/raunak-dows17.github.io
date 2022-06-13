@@ -21,6 +21,12 @@ let playlist17 = document.querySelector(".playlist17");
 let playlist18 = document.querySelector(".playlist18");
 let playlist19 = document.querySelector(".playlist19");
 let playlist20 = document.querySelector(".playlist20");
+let playlist21 = document.querySelector(".playlist21");
+let playlist22 = document.querySelector(".playlist22");
+let playlist23 = document.querySelector(".playlist23");
+let playlist24 = document.querySelector(".playlist24");
+let playlist25 = document.querySelector(".playlist25");
+let playlist26 = document.querySelector(".playlist26");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -157,6 +163,42 @@ let track_list = [
     artist: "Arijit Singh, Antara Mitra",
     image: "https://www.pagalworld.us/_big/dilwale-2015-250.jpg",
     path: "Musics/Janam Janam.mp3",
+  },
+  {
+    name: "Lo Maan Liya",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Lo Maan Liya.mp3",
+  },
+  {
+    name: "Ae Dil Hai Mushkil",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Ae Dil Hai Mushkil.mp3",
+  },
+  {
+    name: "Zaalima",
+    artist: "Arijit Singh, Harshdeep Kaur",
+    image: "https://www.pagalworld.us/_big/raees-2017-250.jpg",
+    path: "Musics/Zaalima.mp3",
+  },
+  {
+    name: "Hamdard",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Hamdard.mp3",
+  },
+  {
+    name: "Wafa Ne Bewafai",
+    artist: "Arijit Singh, Neeti Mohan, Suzanne DMello",
+    image: "https://www.pagalworld.us/_big/teraa-surroor-2016-250.jpg",
+    path: "Musics/Wafa Ne Bewafai.mp3",
+  },
+  {
+    name: "Chahun Main Ya Naa",
+    artist: "Arijit Singh, Palak Muchhal",
+    image: "https://www.pagalworld.us/_big/aashiqui-2-2013-250.jpg",
+    path: "Musics/Chahun Main Ya Naa.mp3",
   },
 ];
 
@@ -317,6 +359,36 @@ playlist19.addEventListener('click', function(){
 })
 playlist20.addEventListener('click', function(){
   track_index = 19;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist21.addEventListener('click', function(){
+  track_index = 20;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist22.addEventListener('click', function(){
+  track_index = 21;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist23.addEventListener('click', function(){
+  track_index = 22;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist24.addEventListener('click', function(){
+  track_index = 23;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist25.addEventListener('click', function(){
+  track_index = 24;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist26.addEventListener('click', function(){
+  track_index = 25;
   loadTrack(track_index);
   playTrack();
 })
