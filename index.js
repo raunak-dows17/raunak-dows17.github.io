@@ -150,7 +150,7 @@ let track_list = [
     name: "Dekha Hazaro Dafaa",
     artist: "Arijit Singh, Palak Muchhal",
     image: "https://www.pagalworld.us/_big/rustom-2016-250.jpg",
-    path: "Musics/Main Hoon Saath Tere.mp3",
+    path: "Musics/Dekha Hazaro Dafaa.mp3",
   },
   {
     name: "Soch Na Sake",
