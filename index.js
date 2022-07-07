@@ -27,6 +27,10 @@ let playlist23 = document.querySelector(".playlist23");
 let playlist24 = document.querySelector(".playlist24");
 let playlist25 = document.querySelector(".playlist25");
 let playlist26 = document.querySelector(".playlist26");
+let playlist27 = document.querySelector(".playlist27");
+let playlist28 = document.querySelector(".playlist28");
+let playlist29 = document.querySelector(".playlist29");
+let playlist30 = document.querySelector(".playlist30");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -199,6 +203,30 @@ let track_list = [
     artist: "Arijit Singh, Palak Muchhal",
     image: "https://www.pagalworld.us/_big/aashiqui-2-2013-250.jpg",
     path: "Musics/Chahun Main Ya Naa.mp3",
+  },
+  {
+    name: "Aashiqui Aa Gayi",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Aashiqui Aa Gayi.mp3",
+  },
+  {
+    name: "Mere Yaaraa",
+    artist: "Arijit Singh, Neeti Mohan",
+    image: "https://pagalworld.com.se/siteuploads/thumb/sft9/4180_4.jpg",
+    path: "Musics/Mere Yaaraa.mp3",
+  },
+  {
+    name: "Jaan Nisaar",
+    artist: "Arijit Singh",
+    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    path: "Musics/Jaan Nisaar.mp3",
+  },
+  {
+    name: "Ami Je Tomar",
+    artist: "Arijit Singh",
+    image: "https://www.pagalvvorld.com/wp-content/uploads/2022/05/Ami-Je-Tomar-Bhool-Bhulaiyaa-2-mp3-image-300x300.jpg",
+    path: "Musics/Ami-Je-Tomar.mp3",
   },
 ];
 
@@ -389,6 +417,26 @@ playlist25.addEventListener('click', function(){
 })
 playlist26.addEventListener('click', function(){
   track_index = 25;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist27.addEventListener('click', function(){
+  track_index = 26;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist28.addEventListener('click', function(){
+  track_index = 27;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist29.addEventListener('click', function(){
+  track_index = 28;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist30.addEventListener('click', function(){
+  track_index = 29;
   loadTrack(track_index);
   playTrack();
 })
