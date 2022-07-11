@@ -1,6 +1,8 @@
-let track_art = document.querySelector(".track-art");
+let track_art = document.querySelector(".track-art-pause");
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
+let preloader = document.querySelector(".preloader");
+
 let playlist1 = document.querySelector(".playlist1");
 let playlist2 = document.querySelector(".playlist2");
 let playlist3 = document.querySelector(".playlist3");
@@ -31,6 +33,10 @@ let playlist27 = document.querySelector(".playlist27");
 let playlist28 = document.querySelector(".playlist28");
 let playlist29 = document.querySelector(".playlist29");
 let playlist30 = document.querySelector(".playlist30");
+
+setTimeout(() => {
+  preloader.style.display = "none";
+}, 1000);
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -228,6 +234,13 @@ let track_list = [
     image: "https://www.pagalvvorld.com/wp-content/uploads/2022/05/Ami-Je-Tomar-Bhool-Bhulaiyaa-2-mp3-image-300x300.jpg",
     path: "Musics/Ami-Je-Tomar.mp3",
   },
+  {
+    name: "Makhmali",
+    artist: "Arijit Singh, Shreya Ghosal",
+    image:
+      "https://www.pagalworld.pw/GpE34Kg9Gq/113645/149620-makhmali-arijit-singh-mp3-song-300.jpg",
+    path: "Musics/Makhmali.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -273,12 +286,14 @@ function playpauseTrack() {
 function playTrack() {
   curr_track.play();
   isPlaying = true;
+  document.querySelector(".track-art-pause").className = "track-art-play";
   playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-3x"></i>';
 }
 
 function pauseTrack() {
   curr_track.pause();
   isPlaying = false;
+  document.querySelector(".track-art-play").className = "track-art-pause";
   playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-3x"></i>';;
 }
 
@@ -437,6 +452,11 @@ playlist29.addEventListener('click', function(){
 })
 playlist30.addEventListener('click', function(){
   track_index = 29;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist31.addEventListener('click', function(){
+  track_index = 30;
   loadTrack(track_index);
   playTrack();
 })
