@@ -69,8 +69,8 @@ let track_list = [
   },
   {
     name: "Dhokha Dhadi",
-    artist: "Arijit Singh",
-    image: "https://www.okeasylife.com/wp-content/uploads/2020/03/arijit-singh.jpg",
+    artist: "Arijit Singh, Palak Muchhal",
+    image: "https://i1.wp.com/www.moviescut.com/wp-content/uploads/2013/10/R%E2%80%A6-Rajkumar-First-Look-Poster.jpg?resize=617%2C960",
     path: "Musics/Dhokha Dhadi.mp3",
   },
   {
