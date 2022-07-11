@@ -2,6 +2,8 @@ let track_art = document.querySelector(".track-art-pause");
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
 let preloader = document.querySelector(".preloader");
+let light = document.querySelector(".light");
+let togglemode = document.querySelector(".togglemode");
 
 let playlist1 = document.querySelector(".playlist1");
 let playlist2 = document.querySelector(".playlist2");
@@ -481,6 +483,153 @@ playlist31.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+
+document.querySelector(".moon").addEventListener("click", function() {
+  document.querySelector(".moon").style.visibility = "hidden";
+  document.querySelector(".sun").style.visibility = "visible";
+  document.querySelector(".brand").style.color = "hotpink";
+  document.querySelector(".offcanvas").style.color = "hotpink";
+  document.querySelector(".offcanvas").style.backgroundColor = "rgb(5, 63, 118)";
+  playlist1.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist2.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist3.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist4.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist5.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist6.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist7.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist8.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist9.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist10.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist11.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist12.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist13.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist14.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist15.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist16.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist17.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist18.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist19.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist20.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist21.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist22.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist23.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist24.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist25.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist26.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist27.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist28.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist29.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist30.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist31.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist1.style.color = "hotpink";
+  playlist2.style.color = "hotpink";
+  playlist3.style.color = "hotpink";
+  playlist4.style.color = "hotpink";
+  playlist5.style.color = "hotpink";
+  playlist6.style.color = "hotpink";
+  playlist7.style.color = "hotpink";
+  playlist8.style.color = "hotpink";
+  playlist9.style.color = "hotpink";
+  playlist10.style.color = "hotpink";
+  playlist11.style.color = "hotpink";
+  playlist12.style.color = "hotpink";
+  playlist13.style.color = "hotpink";
+  playlist14.style.color = "hotpink";
+  playlist15.style.color = "hotpink";
+  playlist16.style.color = "hotpink";
+  playlist17.style.color = "hotpink";
+  playlist18.style.color = "hotpink";
+  playlist19.style.color = "hotpink";
+  playlist20.style.color = "hotpink";
+  playlist21.style.color = "hotpink";
+  playlist22.style.color = "hotpink";
+  playlist23.style.color = "hotpink";
+  playlist24.style.color = "hotpink";
+  playlist25.style.color = "hotpink";
+  playlist26.style.color = "hotpink";
+  playlist27.style.color = "hotpink";
+  playlist28.style.color = "hotpink";
+  playlist29.style.color = "hotpink";
+  playlist30.style.color = "hotpink";
+  playlist31.style.color = "hotpink";
+  document.querySelector(".light").classList.replace("light", "black");
+  document.body.style.color = "hotpink"
+  document.body.style.backgroundColor = "rgb(5, 63, 118)";
+})
+
+document.querySelector(".sun").addEventListener("click", function () {
+  document.querySelector(".sun").style.visibility = "hidden";
+  document.querySelector(".moon").style.visibility = "visible";
+  document.querySelector(".brand").style.color = "black";
+  document.querySelector(".offcanvas").style.color = "black";
+  document.querySelector(".offcanvas").style.backgroundColor = "hotpink";
+  playlist1.style.backgroundColor = "hotpink";
+  playlist2.style.backgroundColor = "hotpink";
+  playlist3.style.backgroundColor = "hotpink";
+  playlist4.style.backgroundColor = "hotpink";
+  playlist5.style.backgroundColor = "hotpink";
+  playlist6.style.backgroundColor = "hotpink";
+  playlist7.style.backgroundColor = "hotpink";
+  playlist8.style.backgroundColor = "hotpink";
+  playlist9.style.backgroundColor = "hotpink";
+  playlist10.style.backgroundColor = "hotpink";
+  playlist11.style.backgroundColor = "hotpink";
+  playlist12.style.backgroundColor = "hotpink";
+  playlist13.style.backgroundColor = "hotpink";
+  playlist14.style.backgroundColor = "hotpink";
+  playlist15.style.backgroundColor = "hotpink";
+  playlist16.style.backgroundColor = "hotpink";
+  playlist17.style.backgroundColor = "hotpink";
+  playlist18.style.backgroundColor = "hotpink";
+  playlist19.style.backgroundColor = "hotpink";
+  playlist20.style.backgroundColor = "hotpink";
+  playlist21.style.backgroundColor = "hotpink";
+  playlist22.style.backgroundColor = "hotpink";
+  playlist23.style.backgroundColor = "hotpink";
+  playlist24.style.backgroundColor = "hotpink";
+  playlist25.style.backgroundColor = "hotpink";
+  playlist26.style.backgroundColor = "hotpink";
+  playlist27.style.backgroundColor = "hotpink";
+  playlist28.style.backgroundColor = "hotpink";
+  playlist29.style.backgroundColor = "hotpink";
+  playlist30.style.backgroundColor = "hotpink";
+  playlist31.style.backgroundColor = "hotpink";
+  playlist1.style.color = "rgb(5, 63, 118)"
+  playlist2.style.color = "rgb(5, 63, 118)"
+  playlist3.style.color = "rgb(5, 63, 118)"
+  playlist4.style.color = "rgb(5, 63, 118)"
+  playlist5.style.color = "rgb(5, 63, 118)"
+  playlist6.style.color = "rgb(5, 63, 118)"
+  playlist7.style.color = "rgb(5, 63, 118)"
+  playlist8.style.color = "rgb(5, 63, 118)"
+  playlist9.style.color = "rgb(5, 63, 118)"
+  playlist10.style.color = "rgb(5, 63, 118)"
+  playlist11.style.color = "rgb(5, 63, 118)"
+  playlist12.style.color = "rgb(5, 63, 118)"
+  playlist13.style.color = "rgb(5, 63, 118)"
+  playlist14.style.color = "rgb(5, 63, 118)"
+  playlist15.style.color = "rgb(5, 63, 118)"
+  playlist16.style.color = "rgb(5, 63, 118)"
+  playlist17.style.color = "rgb(5, 63, 118)"
+  playlist18.style.color = "rgb(5, 63, 118)"
+  playlist19.style.color = "rgb(5, 63, 118)"
+  playlist20.style.color = "rgb(5, 63, 118)"
+  playlist21.style.color = "rgb(5, 63, 118)"
+  playlist22.style.color = "rgb(5, 63, 118)"
+  playlist23.style.color = "rgb(5, 63, 118)"
+  playlist24.style.color = "rgb(5, 63, 118)"
+  playlist25.style.color = "rgb(5, 63, 118)"
+  playlist26.style.color = "rgb(5, 63, 118)"
+  playlist27.style.color = "rgb(5, 63, 118)"
+  playlist28.style.color = "rgb(5, 63, 118)"
+  playlist29.style.color = "rgb(5, 63, 118)"
+  playlist30.style.color = "rgb(5, 63, 118)"
+  playlist31.style.color = "rgb(5, 63, 118)"
+  document.querySelector(".black").classList.replace("black", "light");
+  document.body.style.color = "rgb(5, 63, 118)";
+  random_bg_color();
+})
+
 
 function prevTrack() {
   if (track_index > 0)

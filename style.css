@@ -5,6 +5,8 @@
 
 body{
     transition: background-color 3s;
+    transition: color 3s;
+    color: rgb(5, 63, 118);
 }
 
 ::-webkit-scrollbar{
@@ -143,7 +145,7 @@ li > button {
     padding: 10px;
 }
 li > button:hover{
-    color: blue;
+    color: rgb(59, 99, 194);
     font-size: 21px;
     transition: font-size 300ms;
 }
@@ -159,6 +161,11 @@ li > button:hover{
 .player-container{
     display: flex;
     justify-content: center;
+}
+
+.black{
+    background-color: rgb(5, 63, 118);
+    color: hotpink;
 }
 
 @media screen and (max-width: 1024px){
