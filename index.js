@@ -33,6 +33,7 @@ let playlist27 = document.querySelector(".playlist27");
 let playlist28 = document.querySelector(".playlist28");
 let playlist29 = document.querySelector(".playlist29");
 let playlist30 = document.querySelector(".playlist30");
+let playlist31 = document.querySelector(".playlist31");
 
 setTimeout(() => {
   preloader.style.display = "none";
