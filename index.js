@@ -288,7 +288,7 @@ let track_list = [
   },
   {
     name: "Tu Chale",
-    artist: "Arijit Singh",
+    artist: "Arijit Singh, Shreya Ghoshal, A R Rahman",
     image: "https://upload.wikimedia.org/wikipedia/en/5/56/I_film_poster.jpg",
     path: "Musics/Tu-Chale.mp3",
   },
