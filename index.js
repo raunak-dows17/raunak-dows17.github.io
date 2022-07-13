@@ -38,6 +38,8 @@ let playlist30 = document.querySelector(".playlist30");
 let playlist31 = document.querySelector(".playlist31");
 let playlist32 = document.querySelector(".playlist32");
 let playlist33 = document.querySelector(".playlist33");
+let playlist34 = document.querySelector(".playlist34");
+let playlist35 = document.querySelector(".playlist35");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -278,6 +280,18 @@ let track_list = [
     image: "https://www.pagalworld.us/_big/dilwale-2015-250.jpg",
     path: "Musics/Daayre.mp3",
   },
+  {
+    name: "Shayad",
+    artist: "Arijit Singh",
+    image: "https://www.pagalworld.us/_big/love-aaj-kal-2-2020-250.jpg",
+    path: "Musics/shayad.mp3",
+  },
+  {
+    name: "Tu Chale",
+    artist: "Arijit Singh",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/56/I_film_poster.jpg",
+    path: "Musics/Tu-Chale.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -506,6 +520,16 @@ playlist33.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist34.addEventListener('click', function(){
+  track_index = 33;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist35.addEventListener('click', function(){
+  track_index = 34;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -546,6 +570,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist31.style.backgroundColor = "rgb(5, 63, 118)";
   playlist32.style.backgroundColor = "rgb(5, 63, 118)";
   playlist33.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist34.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist35.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -579,6 +605,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist31.style.color = "hotpink";
   playlist32.style.color = "hotpink";
   playlist33.style.color = "hotpink";
+  playlist34.style.color = "hotpink";
+  playlist35.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -623,6 +651,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist31.style.backgroundColor = "hotpink";
   playlist32.style.backgroundColor = "hotpink";
   playlist33.style.backgroundColor = "hotpink";
+  playlist34.style.backgroundColor = "hotpink";
+  playlist35.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -656,6 +686,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist31.style.color = "rgb(5, 63, 118)"
   playlist32.style.color = "rgb(5, 63, 118)"
   playlist33.style.color = "rgb(5, 63, 118)"
+  playlist34.style.color = "rgb(5, 63, 118)"
+  playlist35.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
