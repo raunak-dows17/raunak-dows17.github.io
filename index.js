@@ -270,7 +270,7 @@ let track_list = [
     name: "Kitni Haseen Hogi",
     artist: "Arijit Singh",
     image: "https://pagalworld.com.se/siteuploads/thumb/sft13/6384_4.jpg",
-    path: "Musics/Kitni Haseen Hogi.mp3",
+    path: "Musics/Kitni-Haseen-Hogi.mp3",
   },
   {
     name: "Daayre",
