@@ -299,7 +299,7 @@ let track_list = [
     name: "Fitoor",
     artist: "Arijit Singh, Neeti Mohan",
     image: "https://i.ytimg.com/vi_webp/hdNg1TAtAHg/maxresdefault.webp",
-    path: "Musics/fitoor.mp3",
+    path: "Musics/Fitoor.mp3",
   },
   {
     name: "Kesariya",
@@ -311,7 +311,7 @@ let track_list = [
     name: "Aayat",
     artist: "Arijit Singh",
     image: "https://i.ytimg.com/vi_webp/vKDsAB1ccn0/maxresdefault.webp",
-    path: "Musics/aayat.mp3",
+    path: "Musics/Aayat.mp3",
   },
 ];
 
