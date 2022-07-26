@@ -40,6 +40,9 @@ let playlist32 = document.querySelector(".playlist32");
 let playlist33 = document.querySelector(".playlist33");
 let playlist34 = document.querySelector(".playlist34");
 let playlist35 = document.querySelector(".playlist35");
+let playlist36 = document.querySelector(".playlist36");
+let playlist37 = document.querySelector(".playlist37");
+let playlist38 = document.querySelector(".playlist38");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -292,6 +295,24 @@ let track_list = [
     image: "https://upload.wikimedia.org/wikipedia/en/5/56/I_film_poster.jpg",
     path: "Musics/Tu-Chale.mp3",
   },
+  {
+    name: "Fitoor",
+    artist: "Arijit Singh, Neeti Mohan",
+    image: "https://i.ytimg.com/vi_webp/hdNg1TAtAHg/maxresdefault.webp",
+    path: "Musics/fitoor.mp3",
+  },
+  {
+    name: "Kesariya",
+    artist: "Arijit Singh",
+    image: "https://i.ytimg.com/vi_webp/AAVtTRw44Lw/maxresdefault.webp",
+    path: "Musics/Kesariya.mp3",
+  },
+  {
+    name: "Aayat",
+    artist: "Arijit Singh",
+    image: "https://i.ytimg.com/vi_webp/vKDsAB1ccn0/maxresdefault.webp",
+    path: "Musics/aayat.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -530,6 +551,21 @@ playlist35.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist36.addEventListener('click', function(){
+  track_index = 35;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist37.addEventListener('click', function(){
+  track_index = 36;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist38.addEventListener('click', function(){
+  track_index = 37;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -572,6 +608,9 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist33.style.backgroundColor = "rgb(5, 63, 118)";
   playlist34.style.backgroundColor = "rgb(5, 63, 118)";
   playlist35.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist36.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist37.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist38.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -607,6 +646,9 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist33.style.color = "hotpink";
   playlist34.style.color = "hotpink";
   playlist35.style.color = "hotpink";
+  playlist36.style.color = "hotpink";
+  playlist37.style.color = "hotpink";
+  playlist38.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -653,6 +695,9 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist33.style.backgroundColor = "hotpink";
   playlist34.style.backgroundColor = "hotpink";
   playlist35.style.backgroundColor = "hotpink";
+  playlist36.style.backgroundColor = "hotpink";
+  playlist37.style.backgroundColor = "hotpink";
+  playlist38.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -688,6 +733,9 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist33.style.color = "rgb(5, 63, 118)"
   playlist34.style.color = "rgb(5, 63, 118)"
   playlist35.style.color = "rgb(5, 63, 118)"
+  playlist36.style.color = "rgb(5, 63, 118)"
+  playlist37.style.color = "rgb(5, 63, 118)"
+  playlist38.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
