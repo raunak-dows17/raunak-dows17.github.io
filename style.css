@@ -30,6 +30,9 @@ body{
     z-index: 10000;
     background-color: rgb(57, 128, 243);
     transition: background-color 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .loader{
