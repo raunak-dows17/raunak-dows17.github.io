@@ -878,6 +878,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist37.style.backgroundColor = "hotpink";
   playlist38.style.backgroundColor = "hotpink";
   playlist39.style.backgroundColor = "hotpink";
+  playlist40.style.backgroundColor = "hotpink";
   playlist41.style.backgroundColor = "hotpink";
   playlist42.style.backgroundColor = "hotpink";
   playlist43.style.backgroundColor = "hotpink";
@@ -927,6 +928,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist37.style.color = "rgb(5, 63, 118)"
   playlist38.style.color = "rgb(5, 63, 118)"
   playlist39.style.color = "rgb(5, 63, 118)"
+  playlist40.style.color = "rgb(5, 63, 118)"
   playlist41.style.color = "rgb(5, 63, 118)"
   playlist42.style.color = "rgb(5, 63, 118)"
   playlist43.style.color = "rgb(5, 63, 118)"
