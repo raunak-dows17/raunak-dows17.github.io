@@ -43,6 +43,8 @@ let playlist35 = document.querySelector(".playlist35");
 let playlist36 = document.querySelector(".playlist36");
 let playlist37 = document.querySelector(".playlist37");
 let playlist38 = document.querySelector(".playlist38");
+let playlist39 = document.querySelector(".playlist39");
+let playlist40 = document.querySelector(".playlist40");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -313,6 +315,20 @@ let track_list = [
     image: "https://i.ytimg.com/vi_webp/vKDsAB1ccn0/maxresdefault.webp",
     path: "Musics/aayat.mp3",
   },
+  {
+    name: "Kabhi Jo Baadal Barse",
+    artist: "Arijit Singh",
+    image:
+      "https://a10.gaanacdn.com/gn_img/albums/Bp1bAnK029/p1bAyqX4b0/size_m.webp",
+    path: "Musics/Kabhi-Jo-Baadal-Barse.mp3",
+  },
+  {
+    name: "Sawan Aaya Hai",
+    artist: "Arijit Singh",
+    image:
+      "https://a10.gaanacdn.com/gn_img/albums/XYybzrb2gz/Yybzg8drK2/size_m.webp",
+    path: "Musics/Sawan-Aaya-Hai.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -566,6 +582,16 @@ playlist38.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist39.addEventListener('click', function(){
+  track_index = 38;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist40.addEventListener('click', function(){
+  track_index = 39;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -611,6 +637,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist36.style.backgroundColor = "rgb(5, 63, 118)";
   playlist37.style.backgroundColor = "rgb(5, 63, 118)";
   playlist38.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist39.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist40.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -649,6 +677,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist36.style.color = "hotpink";
   playlist37.style.color = "hotpink";
   playlist38.style.color = "hotpink";
+  playlist39.style.color = "hotpink";
+  playlist40.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -698,6 +728,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist36.style.backgroundColor = "hotpink";
   playlist37.style.backgroundColor = "hotpink";
   playlist38.style.backgroundColor = "hotpink";
+  playlist39.style.backgroundColor = "hotpink";
+  playlist40.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -736,6 +768,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist36.style.color = "rgb(5, 63, 118)"
   playlist37.style.color = "rgb(5, 63, 118)"
   playlist38.style.color = "rgb(5, 63, 118)"
+  playlist39.style.color = "rgb(5, 63, 118)"
+  playlist40.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
