@@ -39,11 +39,6 @@ body{
     height: 69px;
     width: 69px;
     border-top: 4px solid white;
-    position: relative;
-    top: 47%;
-    left: 44%;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
     z-index: 1000000;
     animation: spin 700ms linear infinite;
