@@ -57,7 +57,7 @@ let volume_slider = document.querySelector(".volume_slider");
 let curr_time = document.querySelector(".current-time");
 let total_duration = document.querySelector(".total-duration");
 
-let track_index = 0;
+  let track_index = 0;
 let isPlaying = false;
 let updateTimer;
 
@@ -299,7 +299,7 @@ let track_list = [
     name: "Fitoor",
     artist: "Arijit Singh, Neeti Mohan",
     image: "https://i.ytimg.com/vi_webp/hdNg1TAtAHg/maxresdefault.webp",
-    path: "Musics/Fitoor.mp3",
+    path: "Musics/fitoor.mp3",
   },
   {
     name: "Kesariya",
@@ -311,7 +311,7 @@ let track_list = [
     name: "Aayat",
     artist: "Arijit Singh",
     image: "https://i.ytimg.com/vi_webp/vKDsAB1ccn0/maxresdefault.webp",
-    path: "Musics/Aayat.mp3",
+    path: "Musics/aayat.mp3",
   },
 ];
 
