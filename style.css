@@ -39,10 +39,15 @@ body{
     height: 69px;
     width: 69px;
     border-top: 4px solid white;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center;
+=======
+>>>>>>> cbd5476ce4352ff7506e26c2d3d594534d5097af
     border-radius: 50%;
     z-index: 1000000;
+    justify-content: center;
+    align-items: center;
     animation: spin 700ms linear infinite;
 }
 
