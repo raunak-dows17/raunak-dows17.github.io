@@ -41,6 +41,8 @@ body{
     border-top: 4px solid white;
     border-radius: 50%;
     z-index: 1000000;
+    justify-content: center;
+    align-items: center;
     animation: spin 700ms linear infinite;
 }
 
