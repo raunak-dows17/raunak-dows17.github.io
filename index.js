@@ -45,6 +45,16 @@ let playlist37 = document.querySelector(".playlist37");
 let playlist38 = document.querySelector(".playlist38");
 let playlist39 = document.querySelector(".playlist39");
 let playlist40 = document.querySelector(".playlist40");
+let playlist41 = document.querySelector(".playlist41");
+let playlist42 = document.querySelector(".playlist42");
+let playlist43 = document.querySelector(".playlist43");
+let playlist44 = document.querySelector(".playlist44");
+let playlist45 = document.querySelector(".playlist45");
+let playlist46 = document.querySelector(".playlist46");
+let playlist47 = document.querySelector(".playlist47");
+let playlist48 = document.querySelector(".playlist48");
+let playlist49 = document.querySelector(".playlist49");
+let playlist50 = document.querySelector(".playlist50");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -329,6 +339,75 @@ let track_list = [
       "https://a10.gaanacdn.com/gn_img/albums/XYybzrb2gz/Yybzg8drK2/size_m.webp",
     path: "Musics/Sawan-Aaya-Hai.mp3",
   },
+  {
+    name: "Suno Na Sangemarmar",
+    artist: "Arijit Singh",
+    image:
+      "https://www.pagalworld.pw/GpE34Kg9Gq/8708/thumb-youngistan-2014-mp3-songs1-300.jpg",
+    path: "Musics/Suno-Na-Sangemarmar.mp3",
+  },
+  {
+    name: "Mast Magan",
+    artist: "Arijit Singh",
+    image:
+      "https://www.pagalworld.pw/GpE34Kg9Gq/8783/thumb-2-states-2014-mp3-song-300.jpg",
+    path: "Musics/Mast-Magan.mp3",
+  },
+  {
+    name: "Samjhawan",
+    artist: "Arijit Singh, Shreya Ghoshal",
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/humpty-sharma-ki-dulhania-et00020365-24-03-2017-19-54-03.jpg",
+    path: "Musics/Samjhawan.mp3",
+  },
+  {
+    name: "Mareez - E - Ishq",
+    artist: "Arijit Singh",
+    image: "https://www.pagalworld.pw/GpE34Kg9Gq/9294/thumb-zid-2014-300.jpg",
+    path: "Musics/Mareez-E-Ishq.mp3",
+  },
+  {
+    name: "Tum Saath Ho",
+    artist: "Arijit Singh, Alka Yagnik",
+    image:
+      "https://www.pagalworld.pw/GpE34Kg9Gq/9989/thumb-song-of-the-day-oct-2015-300.jpg",
+    path: "Musics/Tum-Saath-Ho.mp3",
+  },
+  {
+    name: "Sanam Re",
+    artist: "Arijit Singh",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/old_images/vertical/MOVIE/3421/1000093421/1000093421-v",
+    path: "Musics/Sanam-Re.mp3",
+  },
+  {
+    name: "Salamat",
+    artist: "Arijit Singh, Tulsi Kumar",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNjZjYjg2MzEtMWY3Yy00NmM4LThmNDYtOGZkMGMxY2QwYWI5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+    path: "Musics/Salamat.mp3",
+  },
+  {
+    name: "Phir Kabhi",
+    artist: "Arijit Singh",
+    image:
+      "https://www.pagalworld.pw/GpE34Kg9Gq/11192/thumb-ms-dhoni-2016-movie-mp3-songs11-300.jpg",
+    path: "Musics/Phir-Kabhi.mp3",
+  },
+  {
+    name: "Naina",
+    artist: "Arijit Singh",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dangal_Poster.jpg/220px-Dangal_Poster.jpg",
+    path: "Musics/Dangal.mp3",
+  },
+  {
+    name: "Duaa",
+    artist: "Arijit Singh, Nandani Srikar",
+    image:
+      "https://a10.gaanacdn.com/gn_img/albums/10q3Zj1352/0q3ZYd2K52/size_m.webp",
+    path: "Musics/Duaa.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -592,6 +671,56 @@ playlist40.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist41.addEventListener('click', function(){
+  track_index = 40;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist42.addEventListener('click', function(){
+  track_index = 41;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist43.addEventListener('click', function(){
+  track_index = 42;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist44.addEventListener('click', function(){
+  track_index = 43;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist45.addEventListener('click', function(){
+  track_index = 44;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist46.addEventListener('click', function(){
+  track_index = 45;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist47.addEventListener('click', function(){
+  track_index = 46;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist48.addEventListener('click', function(){
+  track_index = 47;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist49.addEventListener('click', function(){
+  track_index = 48;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist50.addEventListener('click', function(){
+  track_index = 49;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -639,6 +768,16 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist38.style.backgroundColor = "rgb(5, 63, 118)";
   playlist39.style.backgroundColor = "rgb(5, 63, 118)";
   playlist40.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist41.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist42.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist43.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist44.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist45.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist46.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist47.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist48.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist49.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist50.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -679,6 +818,16 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist38.style.color = "hotpink";
   playlist39.style.color = "hotpink";
   playlist40.style.color = "hotpink";
+  playlist41.style.color = "hotpink";
+  playlist42.style.color = "hotpink";
+  playlist43.style.color = "hotpink";
+  playlist44.style.color = "hotpink";
+  playlist45.style.color = "hotpink";
+  playlist46.style.color = "hotpink";
+  playlist47.style.color = "hotpink";
+  playlist48.style.color = "hotpink";
+  playlist49.style.color = "hotpink";
+  playlist50.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -729,7 +878,16 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist37.style.backgroundColor = "hotpink";
   playlist38.style.backgroundColor = "hotpink";
   playlist39.style.backgroundColor = "hotpink";
-  playlist40.style.backgroundColor = "hotpink";
+  playlist41.style.backgroundColor = "hotpink";
+  playlist42.style.backgroundColor = "hotpink";
+  playlist43.style.backgroundColor = "hotpink";
+  playlist44.style.backgroundColor = "hotpink";
+  playlist45.style.backgroundColor = "hotpink";
+  playlist46.style.backgroundColor = "hotpink";
+  playlist47.style.backgroundColor = "hotpink";
+  playlist48.style.backgroundColor = "hotpink";
+  playlist49.style.backgroundColor = "hotpink";
+  playlist50.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -769,7 +927,16 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist37.style.color = "rgb(5, 63, 118)"
   playlist38.style.color = "rgb(5, 63, 118)"
   playlist39.style.color = "rgb(5, 63, 118)"
-  playlist40.style.color = "rgb(5, 63, 118)"
+  playlist41.style.color = "rgb(5, 63, 118)"
+  playlist42.style.color = "rgb(5, 63, 118)"
+  playlist43.style.color = "rgb(5, 63, 118)"
+  playlist44.style.color = "rgb(5, 63, 118)"
+  playlist45.style.color = "rgb(5, 63, 118)"
+  playlist46.style.color = "rgb(5, 63, 118)"
+  playlist47.style.color = "rgb(5, 63, 118)"
+  playlist48.style.color = "rgb(5, 63, 118)"
+  playlist49.style.color = "rgb(5, 63, 118)"
+  playlist50.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
