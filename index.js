@@ -55,6 +55,9 @@ let playlist47 = document.querySelector(".playlist47");
 let playlist48 = document.querySelector(".playlist48");
 let playlist49 = document.querySelector(".playlist49");
 let playlist50 = document.querySelector(".playlist50");
+let playlist51 = document.querySelector(".playlist51");
+let playlist52 = document.querySelector(".playlist52");
+let playlist53 = document.querySelector(".playlist53");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -408,6 +411,24 @@ let track_list = [
       "https://a10.gaanacdn.com/gn_img/albums/10q3Zj1352/0q3ZYd2K52/size_m.webp",
     path: "Musics/Duaa.mp3",
   },
+  {
+    name: "Thank God",
+    artist: "Arijit Singh, Eklavaya",
+    image: "https://pagalnew.com/coverimages/title-track-thank-god-500-500.jpg",
+    path: "Musics/Thank_God.mp3",
+  },
+  {
+    name: "Apna Bana Le",
+    artist: "Arijit Singh",
+    image: "https://pagalworldi.com/siteuploads/thumb/sft29/14055_4.jpg",
+    path: "Musics/Apna-Bana-Le.mp3",
+  },
+  {
+    name: "Kaala Jaadu",
+    artist: "Arijit Singh, Nikita Gandhi",
+    image: "https://paglasongs.com/uploads/thumb/sft23/11331_4.jpg",
+    path: "Musics/Kaala-Jaadu.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -721,6 +742,21 @@ playlist50.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist51.addEventListener('click', function(){
+  track_index = 50;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist52.addEventListener('click', function(){
+  track_index = 51;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist53.addEventListener('click', function(){
+  track_index = 52;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -778,6 +814,9 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist48.style.backgroundColor = "rgb(5, 63, 118)";
   playlist49.style.backgroundColor = "rgb(5, 63, 118)";
   playlist50.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist51.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist52.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist53.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -828,6 +867,9 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist48.style.color = "hotpink";
   playlist49.style.color = "hotpink";
   playlist50.style.color = "hotpink";
+  playlist51.style.color = "hotpink";
+  playlist52.style.color = "hotpink";
+  playlist53.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -889,6 +931,9 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist48.style.backgroundColor = "hotpink";
   playlist49.style.backgroundColor = "hotpink";
   playlist50.style.backgroundColor = "hotpink";
+  playlist51.style.backgroundColor = "hotpink";
+  playlist52.style.backgroundColor = "hotpink";
+  playlist53.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -939,6 +984,9 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist48.style.color = "rgb(5, 63, 118)"
   playlist49.style.color = "rgb(5, 63, 118)"
   playlist50.style.color = "rgb(5, 63, 118)"
+  playlist51.style.color = "rgb(5, 63, 118)"
+  playlist52.style.color = "rgb(5, 63, 118)"
+  playlist53.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
