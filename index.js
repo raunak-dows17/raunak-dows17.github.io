@@ -426,7 +426,8 @@ let track_list = [
   {
     name: "Kaala Jaadu",
     artist: "Arijit Singh, Nikita Gandhi",
-    image: "https://paglasongs.com/uploads/thumb/sft23/11331_4.jpg",
+    image:
+      "https://i.ytimg.com/vi/2yDkpESwz04/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDNZNCleneo9gP4hd8qWqOJNYaK5A",
     path: "Musics/Kaala-Jaadu.mp3",
   },
 ];
