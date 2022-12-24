@@ -58,6 +58,7 @@ let playlist50 = document.querySelector(".playlist50");
 let playlist51 = document.querySelector(".playlist51");
 let playlist52 = document.querySelector(".playlist52");
 let playlist53 = document.querySelector(".playlist53");
+let playlist54 = document.querySelector(".playlist54");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -430,6 +431,13 @@ let track_list = [
       "https://i.ytimg.com/vi/2yDkpESwz04/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDNZNCleneo9gP4hd8qWqOJNYaK5A",
     path: "Musics/Kaala-Jaadu.mp3",
   },
+  {
+    name: "Jhoome Jo Pathaan",
+    artist: "Arijit Singh, Sukriti Kakar",
+    image:
+      "https://pagalworld.ink/siteuploads/thumb/sft20/9532_resize_300x300.webp",
+    path: "Musics/Jhoome_Jo_Pathaan.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -758,6 +766,11 @@ playlist53.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist54.addEventListener('click', function(){
+  track_index = 53;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -818,6 +831,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist51.style.backgroundColor = "rgb(5, 63, 118)";
   playlist52.style.backgroundColor = "rgb(5, 63, 118)";
   playlist53.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist54.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -871,6 +885,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist51.style.color = "hotpink";
   playlist52.style.color = "hotpink";
   playlist53.style.color = "hotpink";
+  playlist54.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -935,6 +950,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist51.style.backgroundColor = "hotpink";
   playlist52.style.backgroundColor = "hotpink";
   playlist53.style.backgroundColor = "hotpink";
+  playlist54.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -988,6 +1004,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist51.style.color = "rgb(5, 63, 118)"
   playlist52.style.color = "rgb(5, 63, 118)"
   playlist53.style.color = "rgb(5, 63, 118)"
+  playlist54.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
