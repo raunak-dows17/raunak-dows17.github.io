@@ -63,6 +63,7 @@ let playlist55 = document.querySelector(".playlist55");
 let playlist56 = document.querySelector(".playlist56");
 let playlist57 = document.querySelector(".playlist57");
 let playlist58 = document.querySelector(".playlist58");
+let playlist59 = document.querySelector(".playlist59");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -470,6 +471,13 @@ let track_list = [
       "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_906902162.jpg",
     path: "Musics/Milne_Hai_Mujhse_Aayi.mp3",
   },
+  {
+    name: "Tere Pyaar Mein",
+    artist: "Arijit Singh",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-yQAiHKPlexGk2RcvJKEMVYuPvOyyN5Gn0AqX9lq8u886zSOvR-Tm1oVyl2-YfhfBcQ&usqp=CAU",
+    path: "Musics/Tere_Pyaar_Mein.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -823,6 +831,11 @@ playlist58.addEventListener("click", function () {
   loadTrack(track_index);
   playTrack();
 })
+playlist59.addEventListener("click", function () {
+  track_index = 58;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -888,6 +901,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist56.style.backgroundColor = "rgb(5, 63, 118)";
   playlist57.style.backgroundColor = "rgb(5, 63, 118)";
   playlist58.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist59.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -946,6 +960,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist56.style.color = "hotpink";
   playlist57.style.color = "hotpink";
   playlist58.style.color = "hotpink";
+  playlist59.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -1015,6 +1030,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist56.style.backgroundColor = "hotpink";
   playlist57.style.backgroundColor = "hotpink";
   playlist58.style.backgroundColor = "hotpink";
+  playlist59.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -1073,6 +1089,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist56.style.color = "rgb(5, 63, 118)"
   playlist57.style.color = "rgb(5, 63, 118)"
   playlist58.style.color = "rgb(5, 63, 118)"
+  playlist59.style.color = "rgb(5, 63, 118)";
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
