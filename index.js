@@ -473,7 +473,7 @@ let track_list = [
   },
   {
     name: "Tere Pyaar Mein",
-    artist: "Arijit Singh",
+    artist: "Arijit Singh, Nikita Gandhi",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-yQAiHKPlexGk2RcvJKEMVYuPvOyyN5Gn0AqX9lq8u886zSOvR-Tm1oVyl2-YfhfBcQ&usqp=CAU",
     path: "Musics/Tere_Pyaar_Mein.mp3",
