@@ -59,6 +59,10 @@ let playlist51 = document.querySelector(".playlist51");
 let playlist52 = document.querySelector(".playlist52");
 let playlist53 = document.querySelector(".playlist53");
 let playlist54 = document.querySelector(".playlist54");
+let playlist55 = document.querySelector(".playlist55");
+let playlist56 = document.querySelector(".playlist56");
+let playlist57 = document.querySelector(".playlist57");
+let playlist58 = document.querySelector(".playlist58");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -438,6 +442,34 @@ let track_list = [
       "https://pagalworld.ink/siteuploads/thumb/sft20/9532_resize_300x300.webp",
     path: "Musics/Jhoome_Jo_Pathaan.mp3",
   },
+  {
+    name: "Hai Dil Ye Mera",
+    artist: "Arijit Singh",
+    image:
+      "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_212290731.jpg",
+    path: "Musics/Hai_Dil_Ye_Mera.mp3",
+  },
+  {
+    name: "Uska Hi Banana",
+    artist: "Arijit Singh",
+    image:
+      "https://pagalfree.com/images/128Uska%20Hi%20Banana%20-%201920%20-%20Evil%20Returns%20128%20Kbps.jpg",
+    path: "Musics/Uska_Hi_Banana.mp3",
+  },
+  {
+    name: "Phir Mohabbat",
+    artist: "Mohammed Irfan, Arijit Singh",
+    image:
+      "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_1038637373.jpg",
+    path: "Musics/Phir_Mohabbat.mp3",
+  },
+  {
+    name: "Milne Hai Mujhse Aayi",
+    artist: "Arijit Singh",
+    image:
+      "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_906902162.jpg",
+    path: "Musics/Milne_Hai_Mujhse_Aayi.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -771,6 +803,26 @@ playlist54.addEventListener('click', function(){
   loadTrack(track_index);
   playTrack();
 })
+playlist55.addEventListener("click", function () {
+  track_index = 54;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist56.addEventListener("click", function () {
+  track_index = 55;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist57.addEventListener("click", function () {
+  track_index = 56;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist58.addEventListener("click", function () {
+  track_index = 57;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -832,6 +884,10 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist52.style.backgroundColor = "rgb(5, 63, 118)";
   playlist53.style.backgroundColor = "rgb(5, 63, 118)";
   playlist54.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist55.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist56.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist57.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist58.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -886,6 +942,10 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist52.style.color = "hotpink";
   playlist53.style.color = "hotpink";
   playlist54.style.color = "hotpink";
+  playlist55.style.color = "hotpink";
+  playlist56.style.color = "hotpink";
+  playlist57.style.color = "hotpink";
+  playlist58.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -951,6 +1011,10 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist52.style.backgroundColor = "hotpink";
   playlist53.style.backgroundColor = "hotpink";
   playlist54.style.backgroundColor = "hotpink";
+  playlist55.style.backgroundColor = "hotpink";
+  playlist56.style.backgroundColor = "hotpink";
+  playlist57.style.backgroundColor = "hotpink";
+  playlist58.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -1005,6 +1069,10 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist52.style.color = "rgb(5, 63, 118)"
   playlist53.style.color = "rgb(5, 63, 118)"
   playlist54.style.color = "rgb(5, 63, 118)"
+  playlist55.style.color = "rgb(5, 63, 118)"
+  playlist56.style.color = "rgb(5, 63, 118)"
+  playlist57.style.color = "rgb(5, 63, 118)"
+  playlist58.style.color = "rgb(5, 63, 118)"
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
