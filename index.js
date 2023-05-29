@@ -65,6 +65,8 @@ let playlist57 = document.querySelector(".playlist57");
 let playlist58 = document.querySelector(".playlist58");
 let playlist59 = document.querySelector(".playlist59");
 let playlist60 = document.querySelector(".playlist60");
+let playlist61 = document.querySelector(".playlist61");
+
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -486,6 +488,12 @@ let track_list = [
       "https://c.saavncdn.com/119/Tere-Hawaale-From-Laal-Singh-Chaddha-Hindi-2022-20220804093945-500x500.jpg",
     path: "Musics/Tere_Hawaale.mp3",
   },
+  {
+    name: "Phir Aur Kya Chahiye",
+    artist: "Arijit Singh",
+    image: "https://i.scdn.co/image/ab67616d0000b273bf8097b2589277bd3d8f7a2d",
+    path: "Musics/Phir_Aur_Kya_Chahiye.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -849,13 +857,19 @@ playlist60.addEventListener("click", function () {
   loadTrack(track_index);
   playTrack();
 })
+playlist61.addEventListener("click", function () {
+  track_index = 60;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
   document.querySelector(".sun").style.visibility = "visible";
   document.querySelector(".brand").style.color = "hotpink";
   document.querySelector(".offcanvas").style.color = "hotpink";
-  document.querySelector(".offcanvas").style.backgroundColor = "rgb(5, 63, 118)";
+  document.querySelector(".offcanvas").style.backgroundColor =
+    "rgb(5, 63, 118)";
   playlist1.style.backgroundColor = "rgb(5, 63, 118)";
   playlist2.style.backgroundColor = "rgb(5, 63, 118)";
   playlist3.style.backgroundColor = "rgb(5, 63, 118)";
@@ -916,6 +930,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist58.style.backgroundColor = "rgb(5, 63, 118)";
   playlist59.style.backgroundColor = "rgb(5, 63, 118)";
   playlist60.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist61.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -976,8 +991,9 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist58.style.color = "hotpink";
   playlist59.style.color = "hotpink";
   playlist60.style.color = "hotpink";
+  playlist61.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
-  document.body.style.color = "hotpink"
+  document.body.style.color = "hotpink";
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
 })
 
@@ -1047,6 +1063,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist58.style.backgroundColor = "hotpink";
   playlist59.style.backgroundColor = "hotpink";
   playlist60.style.backgroundColor = "hotpink";
+  playlist61.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -1107,6 +1124,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist58.style.color = "rgb(5, 63, 118)"
   playlist59.style.color = "rgb(5, 63, 118)";
   playlist60.style.color = "rgb(5, 63, 118)";
+  playlist61.style.color = "rgb(5, 63, 118)";
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
