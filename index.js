@@ -64,6 +64,7 @@ let playlist56 = document.querySelector(".playlist56");
 let playlist57 = document.querySelector(".playlist57");
 let playlist58 = document.querySelector(".playlist58");
 let playlist59 = document.querySelector(".playlist59");
+let playlist60 = document.querySelector(".playlist60");
 
 setTimeout(() => {
   preloader.style.display = "none";
@@ -478,6 +479,13 @@ let track_list = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-yQAiHKPlexGk2RcvJKEMVYuPvOyyN5Gn0AqX9lq8u886zSOvR-Tm1oVyl2-YfhfBcQ&usqp=CAU",
     path: "Musics/Tere_Pyaar_Mein.mp3",
   },
+  {
+    name: "Tere Hawaale",
+    artist: "Arijit Singh, Shilpa Rao",
+    image:
+      "https://c.saavncdn.com/119/Tere-Hawaale-From-Laal-Singh-Chaddha-Hindi-2022-20220804093945-500x500.jpg",
+    path: "Musics/Tere_Hawaale.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -836,6 +844,11 @@ playlist59.addEventListener("click", function () {
   loadTrack(track_index);
   playTrack();
 })
+playlist60.addEventListener("click", function () {
+  track_index = 59;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -902,6 +915,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist57.style.backgroundColor = "rgb(5, 63, 118)";
   playlist58.style.backgroundColor = "rgb(5, 63, 118)";
   playlist59.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist60.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -961,6 +975,7 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist57.style.color = "hotpink";
   playlist58.style.color = "hotpink";
   playlist59.style.color = "hotpink";
+  playlist60.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink"
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -1031,6 +1046,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist57.style.backgroundColor = "hotpink";
   playlist58.style.backgroundColor = "hotpink";
   playlist59.style.backgroundColor = "hotpink";
+  playlist60.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -1090,6 +1106,7 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist57.style.color = "rgb(5, 63, 118)"
   playlist58.style.color = "rgb(5, 63, 118)"
   playlist59.style.color = "rgb(5, 63, 118)";
+  playlist60.style.color = "rgb(5, 63, 118)";
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
