@@ -66,6 +66,8 @@ let playlist58 = document.querySelector(".playlist58");
 let playlist59 = document.querySelector(".playlist59");
 let playlist60 = document.querySelector(".playlist60");
 let playlist61 = document.querySelector(".playlist61");
+let playlist62 = document.querySelector(".playlist62");
+let playlist63 = document.querySelector(".playlist63");
 
 
 setTimeout(() => {
@@ -494,6 +496,20 @@ let track_list = [
     image: "https://i.scdn.co/image/ab67616d0000b273bf8097b2589277bd3d8f7a2d",
     path: "Musics/Phir_Aur_Kya_Chahiye.mp3",
   },
+  {
+    name: "Tum Kya Mile",
+    artist: "Arijit Singh",
+    image:
+      "https://www.lyricsgoal.com/wp-content/uploads/2023/06/tum-kya-mile-lyrics.jpg",
+    path: "Musics/Tum_Kya_Mile.mp3",
+  },
+  {
+    name: "Meet",
+    artist: "Arijit Singh",
+    image:
+      "https://www.pagalworld.tv/GpE34Kg9Gq/12511/thumb-simran-2017-hindi-movie-mp3-songs11-300.jpg",
+    path: "Musics/Meet.mp3",
+  },
 ];
 
 function random_bg_color() {
@@ -862,6 +878,16 @@ playlist61.addEventListener("click", function () {
   loadTrack(track_index);
   playTrack();
 })
+playlist62.addEventListener("click", function () {
+  track_index = 61;
+  loadTrack(track_index);
+  playTrack();
+})
+playlist63.addEventListener("click", function () {
+  track_index = 62;
+  loadTrack(track_index);
+  playTrack();
+})
 
 document.querySelector(".moon").addEventListener("click", function() {
   document.querySelector(".moon").style.visibility = "hidden";
@@ -931,6 +957,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist59.style.backgroundColor = "rgb(5, 63, 118)";
   playlist60.style.backgroundColor = "rgb(5, 63, 118)";
   playlist61.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist62.style.backgroundColor = "rgb(5, 63, 118)";
+  playlist63.style.backgroundColor = "rgb(5, 63, 118)";
   playlist1.style.color = "hotpink";
   playlist2.style.color = "hotpink";
   playlist3.style.color = "hotpink";
@@ -992,6 +1020,8 @@ document.querySelector(".moon").addEventListener("click", function() {
   playlist59.style.color = "hotpink";
   playlist60.style.color = "hotpink";
   playlist61.style.color = "hotpink";
+  playlist62.style.color = "hotpink";
+  playlist63.style.color = "hotpink";
   document.querySelector(".light").classList.replace("light", "black");
   document.body.style.color = "hotpink";
   document.body.style.backgroundColor = "rgb(5, 63, 118)";
@@ -1064,6 +1094,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist59.style.backgroundColor = "hotpink";
   playlist60.style.backgroundColor = "hotpink";
   playlist61.style.backgroundColor = "hotpink";
+  playlist62.style.backgroundColor = "hotpink";
+  playlist63.style.backgroundColor = "hotpink";
   playlist1.style.color = "rgb(5, 63, 118)"
   playlist2.style.color = "rgb(5, 63, 118)"
   playlist3.style.color = "rgb(5, 63, 118)"
@@ -1125,6 +1157,8 @@ document.querySelector(".sun").addEventListener("click", function () {
   playlist59.style.color = "rgb(5, 63, 118)";
   playlist60.style.color = "rgb(5, 63, 118)";
   playlist61.style.color = "rgb(5, 63, 118)";
+  playlist62.style.color = "rgb(5, 63, 118)";
+  playlist63.style.color = "rgb(5, 63, 118)";
   document.querySelector(".black").classList.replace("black", "light");
   document.body.style.color = "rgb(5, 63, 118)";
   random_bg_color();
